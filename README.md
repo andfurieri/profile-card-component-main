@@ -22,8 +22,8 @@ Essa é uma solução para o desafio "Profile card component
 
 ## Links
 
-- Solution URL: [https://github.com/andfurieri/qr-code-component-main](https://github.com/andfurieri/qr-code-component-main)
-- Live Site URL: [Live Site](https://andfurieri.github.io/qr-code-component-main/)
+- Solution URL: [https://github.com/andfurieri/profile-card-component-main](https://github.com/andfurieri/profile-card-component-main)
+- Live Site URL: [Live Site](https://andfurieri.github.io/profile-card-component-main/)
 
 ## Feito com
 
