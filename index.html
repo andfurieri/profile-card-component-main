@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+     *{
+      padding: 0px;
+      margin: 0px;
+      font-family: 'Outfit', sans-serif;
+    }
+
+    
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    
+    body {
+      background-color: #19a2ae;
+      background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+      background-position: right 57vw bottom -72vh, left 56vw top 46vh;
+      background-repeat: no-repeat, no-repeat;
+
+      }
+
+    section {
+      background-color: white;
+      width: 400px;
+      height: 430px;
+      border-radius: 7px;
+      overflow: hidden;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .negrito {
+      font-weight: 700;
+      color :#2d3248;
+    }
+    
+    main > div#cabeca {
+      width: 100%;
+      height: 140px;
+      background-image: url(images/bg-pattern-card.svg);
+      position: relative;
+    
+    }
+
+    main > div#cabeca > img {
+    position: absolute;
+    display: block;
+    margin: auto;
+    top: 90px;
+    left: 150px;
+    border: 4px solid #ffffff;
+
+    }
+   
+    main > div#corpo {
+      height: 104px;
+      text-align: center;
+      margin-top: 92px;
+    }
+
+    main img {
+      border-radius: 50%;
+  
+    }
+
+    .cinza {
+      color: #969696;
+      font-weight: lighter;
+      font-size: smaller;
+      letter-spacing: 2px;
+      margin-top: 10px;
+      
+    
+    }
+
+    main > div.footer {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+
+    }
+
+    main div.conteudo {
+      text-align: center;
+      margin: auto;
+    }
+  
+    hr#linha {
+      border-top: 0px solid rgba(169, 169, 169, 0.445);
+    }
+
+    main h2 {
+      display: inline;
+      padding-left: 10px;
+      color: #2d3248;
+    }
+
+    main span {
+        color: #969696;
+        font-weight: 100;
+    }
+
+  </style>
+</head>
+<body>
+  <section>
+    <header>
+      
+    </header>
+    <main>
+      <div id="cabeca">  
+        <img src="images/image-victor.jpg" alt="foto victor">
+      </div>
+
+      <div id="corpo">
+       
+        <h2>Victor Crest <span>26</span></h2>
+
+        <p style="color:  #969696; padding-top: 10px;">London</p>
+      </div>
+      <hr id="linha">
+
+      <div class="footer">
+        <div class="conteudo">
+          <p class="negrito">80K</p>
+          <p class="cinza">Followers</p>
+        </div>
+        <div class="conteudo">
+          <p class="negrito">803K</p>
+          <p class="cinza">Likes</p>
+        </div>
+        <div class="conteudo">
+          <p class="negrito">1.4K</p>
+          <p class="cinza">Photos</p>
+        </div>
+      </div>
+      
+    </main>
+  </section>
+ 
+  
+  <footer>
+
+  </footer>
+</body>
+</html>
